@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: trackonomy.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  4 03:04:28 2026 GMT
+  hsts: false
+domains:
+- domain: trackonomy.ai
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

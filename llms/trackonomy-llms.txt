@@ -1,0 +1,26 @@
+# Trackonomy
+
+> Trackonomy is a supply chain visibility company that digitizes real-world operations with barely-there smart label sensors. Its SmartTape and THL Tape products provide item-level tracking — monitoring location, temperature, humidity, and light in real time — while its Sentient Platform connects, automates, controls, and remediates operations processes at global scale for logistics, industrial, utilities, healthcare, government, and airline customers. Backed by 8VC. Trackonomy does not currently publish a public API, developer portal, or SDKs.
+
+## Company
+
+- [Website](https://trackonomy.ai/): Trackonomy home — smart labels for supply chain visibility
+- [Platform](https://trackonomy.ai/platform/): Sentient Platform — AI-driven operations platform
+- [SmartTape](https://trackonomy.ai/smarttape/): End-to-end supply chain visibility with single-use pricing
+- [THL Tape](https://trackonomy.ai/thl-tape): Real-time temperature, humidity, and light monitoring
+- [Newsroom](https://trackonomy.ai/newsroom/): Company news and press releases
+- [Careers](https://trackonomy.ai/careers/): Open roles
+- [Contact](https://trackonomy.ai/contact-us/): Contact Trackonomy
+
+## Open Source
+
+- [GitHub organization](https://github.com/Trackonomy): Public repos are embedded-firmware forks (i.MX Linux kernel, U-Boot, Yocto manifests) supporting Trackonomy hardware
+
+## Legal
+
+- [Privacy Policy](https://trackonomy.ai/privacy-policy/)
+- [Terms of Use](https://trackonomy.ai/terms-of-use/)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/trackonomy/refs/heads/main/apis.yml): APIs.json profile for Trackonomy (no public APIs catalogued)

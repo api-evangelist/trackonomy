@@ -1,7 +1,24 @@
 aid: trackonomy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trackonomy.png
 name: Trackonomy
-description: Trackonomy is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Trackonomy is a supply chain visibility company that digitizes real-world operations
+  with barely-there smart label sensors. Its SmartTape and THL Tape products provide item-level
+  tracking, monitoring location, temperature, humidity, and light in real time, while its platform
+  connects, automates, controls, and remediates operations processes at global scale for logistics,
+  industrial, utilities, healthcare, government, and airline customers. Trackonomy is backed by 8VC.
+  It advertises a customizable RESTful API and webhook-based real-time data exchange for platform
+  customers, but publishes no public developer portal, API documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/trackonomy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,22 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Internet of Things
+- Supply Chain
+- Logistics
+- Asset Tracking
+- Smart Labels
+- Sensors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,29 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/trackonomy-domain-security.yml
 - type: Website
-  url: https://trackonomysystems.com
+  url: https://trackonomy.ai
+- type: PrivacyPolicy
+  url: https://trackonomy.ai/privacy-policy/
+- type: TermsOfService
+  url: https://trackonomy.ai/terms-of-use/
+- type: GitHubOrganization
+  url: https://github.com/Trackonomy
+- type: Careers
+  url: https://trackonomy.ai/careers/
+- type: Contact
+  url: https://trackonomy.ai/contact-us/
+- type: Newsroom
+  url: https://trackonomy.ai/newsroom/
+- type: Support
+  url: https://trackonomy.ai/customer-success-training/
+- type: Webhooks
+  url: https://trackonomy.ai/customer-success-training/
+- type: LLMsTxt
+  url: llms/trackonomy-llms.txt
+- type: LinkedIn
+  url: https://www.linkedin.com/company/trackonomy/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCIPF532gccb_Uh5kM8k4deA
